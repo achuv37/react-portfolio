@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Nav></Nav>
       <main>
       <About></About>
+      <Portfolio></Portfolio>
       </main>
       <div>
         <Footer></Footer>

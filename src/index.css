@@ -302,12 +302,15 @@ a {
 }
 .footer {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  
 }
 .logos {
   width: 48px;
   height: 48px;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 
 }
