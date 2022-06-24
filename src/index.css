@@ -300,3 +300,14 @@ a {
 .left {
   width: 50%;
 }
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.logos {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 45px;
+
+}
