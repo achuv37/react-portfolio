@@ -78,6 +78,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  color:var(--dark);
 }
 
 a {
@@ -291,4 +292,11 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+.aboutme {
+  display: flex;
+  justify-content: center;
+}
+.left {
+  width: 50%;
 }
