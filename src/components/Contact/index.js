@@ -10,45 +10,54 @@ function Contact () {
   const { name, email, message } = formState;
   
   // handleChange function
-  function handleChange(e) {
+  const handleChange = (e) => {
     if (e.target.name === 'email') {
-        const isValid = validateEmail(e.target.value);
-        console.log(isValid);
-        // isValid conditional statement
-        if (!isValid) {
-            setErrorMessage('Your email is invalid.');
-          } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
-              } else {
-                setErrorMessage('');
-              }
-          }
-      }  
-    console.log('errorMessage', errorMessage);
-    setFormState({...formState, [e.target.name]: e.target.value })
-    if (!errorMessage) {
-        setFormState({ ...formState, [e.target.name]: e.target.value });
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setErrorMessage('Your email is invalid.');
+      } else {
+        setErrorMessage('');
       }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage('');
+      }
+    }
+  };
+
+  function handleNull(e) {
+    if (e.target.name === 'name' || e.target.name === 'message') {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage('');
+      }
+    }
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+    }
   }
   
   //console.log(formState);
 
   // handleSubmit function
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    if(!errorMessage) {
-      console.log(formState);
+    if (!errorMessage) {
+      setFormState({ [e.target.name]: e.target.value });
+      console.log('Form', formState);
     }
   };
 
   return (
     <section className='contact'>
-    <h1>Contact me</h1>
+    <h1 data-testid="h1tag" >Contact me</h1>
     <form id="contact-form" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
-        <input className='form-input' type="text" defaultValue={name}  onBlur={handleChange} name="name" />
+        <input className='form-input' type="text" defaultValue={name}  onBlur={handleNull} name="name" />
       </div>
       <div>
         <label htmlFor="email">Email address:</label>
@@ -56,14 +65,14 @@ function Contact () {
       </div>
       <div>
         <label htmlFor="message">Message:</label>
-        <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+        <textarea name="message" defaultValue={message} onBlur={handleNull} rows="5" />
       </div>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-      <button className='btn-sm' type="submit">Submit</button>
+      <button data-testid="button"  className='btn-sm' type="submit">Submit</button>
     </form>
   </section>
   );

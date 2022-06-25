@@ -1,12 +1,13 @@
-import React, { useMemo, useState } from 'react';
-//import Header from './components/Header';
-import Nav from './components/Nav'
-import About from './components/About';
+//import React, { useMemo, useState } from 'react';
+import React from 'react';
+import Header from './components/Header';
+//import Nav from './components/Nav'
+//import About from './components/About';
 import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
-
+//import Portfolio from './components/Portfolio';
+//import Contact from './components/Contact';
+//import Resume from './components/Resume';
+/*
 function App() {
   const [currentPage, handlePageChange] = useState('About');
 
@@ -50,4 +51,15 @@ function App() {
 }
 
 export default App;
+*/
 
+function App () {
+  return (
+    <div>
+      <Header></Header>
+      <Footer></Footer>
+    </div>
+  )
+}
+
+export default App;
