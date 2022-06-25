@@ -232,7 +232,8 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  align-items: center;
+  margin: 10px;
   text-align: center;
 }
 
@@ -321,10 +322,22 @@ a {
 
 }
 .resume {
-  background-color: lightblue;
+  
   padding: 20px;
   line-height: 1.8;
   margin-top: 5px;
   font-weight: 600;
 
+}
+.portfolio {
+  margin: 10px auto;
+}
+.contact {
+  background-color: gray;
+  padding: 20px;
+  
+}
+.form-input {
+  padding: 10px;
+  margin-top: 5px;
 }

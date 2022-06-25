@@ -2,8 +2,8 @@ import React from 'react';
 
 function Portfolio() {
   return (
-    <section id="portfolio">
-      <div className='row'>
+    <section className="portfolio">
+      <div className='row row-cols-4'>
         <div className='col'>
           <div className='card'>
             <img 
@@ -12,11 +12,12 @@ function Portfolio() {
               className='image'
             />
             <div className='card-body'>
+              <h6> Beers-and-Cheers</h6>
               <a href=' https://github.com/beatricekallen/beers-and-cheers' target="_blank" rel="noreferrer">
-                <button>Github</button>
+                <button className='btn-sm'>Github</button>
               </a>
               <a href='https://beatricekallen.github.io/beers-and-cheers/' target="_blank" rel="noreferrer">
-                <button>Website</button>
+                <button className='btn-sm'>Website</button>
               </a>
             </div>
           </div>
@@ -29,11 +30,12 @@ function Portfolio() {
               className='image'
             />
             <div className='card-body'>
+              <h6>Greenhive</h6>
               <a href='https://github.com/william-horn/greenhive' target="_blank" rel="noreferrer">
-                <button>Github</button>
+                <button className='btn-sm'>Github</button>
               </a>
               <a href='https://greenhive-com.herokuapp.com/' target="_blank" rel="noreferrer">
-                <button>Website</button>
+                <button className='btn-sm'>Website</button>
               </a>
             </div>
           </div>
@@ -46,11 +48,12 @@ function Portfolio() {
               className='image'
             />
             <div className='card-body'>
+              <h6>Budget-Tracker</h6>
               <a href='https://github.com/achuv37/Budget-Tracker-AV' target="_blank" rel="noreferrer">
-                <button>Github</button>
+                <button className='btn-sm'>Github</button>
               </a>
               <a href='https://floating-ocean-64578.herokuapp.com/' target="_blank" rel="noreferrer">
-                <button>Website</button>
+                <button className='btn-sm'>Website</button>
               </a>
             </div>
           </div>
@@ -63,11 +66,12 @@ function Portfolio() {
               className='image'
             />
             <div className='card-body'>
+              <h6>Runbuddy</h6>
               <a href='https://github.com/achuv37/RUN-BUDDY' target="_blank" rel="noreferrer">
-                <button>Github</button>
+                <button className='btn-sm'>Github</button>
               </a>
               <a href='https://achuv37.github.io/RUN-BUDDY/' target="_blank" rel="noreferrer">
-                <button>Website</button>
+                <button className='btn-sm'>Website</button>
               </a>
             </div>
           </div>
@@ -80,11 +84,12 @@ function Portfolio() {
               className='image'
             />
             <div className='card-body'>
+              <h6>Tech-Blog</h6>
               <a href='https://github.com/achuv37/Tech-Blog-AV' target="_blank" rel="noreferrer">
-                <button>Github</button>
+                <button className='btn-sm'>Github</button>
               </a>
               <a href='https://mvc-express-blog.herokuapp.com/' target="_blank" rel="noreferrer">
-                <button>Website</button>
+                <button className='btn-sm'>Website</button>
               </a>
             </div>
           </div>
@@ -97,11 +102,12 @@ function Portfolio() {
               className='image'
             />
             <div className='card-body'>
+              <h6>Note-Taker</h6>
               <a href='https://github.com/achuv37/Note-Taker-AV' target="_blank" rel="noreferrer">
-                <button>Github</button>
+                <button className='btn-sm'>Github</button>
               </a>
               <a href='https://desolate-citadel-96504.herokuapp.com/' target="_blank" rel="noreferrer">
-                <button>Website</button>
+                <button className='btn-sm'>Website</button>
               </a>
             </div>
           </div>

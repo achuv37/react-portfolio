@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import Header from './components/Header';
+//import Header from './components/Header';
 import Nav from './components/Nav'
 import About from './components/About';
 import Footer from './components/Footer';
@@ -28,16 +28,14 @@ function App() {
   }, [currentPage]);
 
   
-  
-  
   return (
     <div>
-      <Nav currentPage={currentPage} 
-      handlePageChange={handlePageChange}
+    
+      <div>
+        <Nav currentPage={currentPage} 
+        handlePageChange={handlePageChange}></Nav>
+      </div>
       
-      >
-
-      </Nav>
       <main>
       {
       // Render the component returned by 'renderPage()'

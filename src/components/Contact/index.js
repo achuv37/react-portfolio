@@ -43,16 +43,16 @@ function Contact () {
   };
 
   return (
-    <section>
+    <section className='contact'>
     <h1>Contact me</h1>
     <form id="contact-form" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" defaultValue={name}  onBlur={handleChange} name="name" />
+        <input className='form-input' type="text" defaultValue={name}  onBlur={handleChange} name="name" />
       </div>
       <div>
         <label htmlFor="email">Email address:</label>
-        <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
+        <input className='form-input' type="email" defaultValue={email} onBlur={handleChange} name="email" />
       </div>
       <div>
         <label htmlFor="message">Message:</label>
@@ -63,7 +63,7 @@ function Contact () {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-      <button type="submit">Submit</button>
+      <button className='btn-sm' type="submit">Submit</button>
     </form>
   </section>
   );
