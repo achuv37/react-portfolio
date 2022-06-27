@@ -1,9 +1,10 @@
 import React from 'react'
 import profileImage from "../../assets/images/profile.jpg";
 
+// About component
 function About() {
   return (
-    <section>
+    <section className='profile'>
       <div className='aboutme' id="about">
         <h1>Hello! This is me</h1>
       </div>
@@ -11,7 +12,7 @@ function About() {
         <img
           src={profileImage}
           alt="about-me"
-          className=""
+          className="image"
         />
       </div>
       <div className='left'>

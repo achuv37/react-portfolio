@@ -79,6 +79,7 @@ p {
   font-size: 1.1rem;
   margin-top: 0;
   color:var(--dark);
+  
 }
 
 a {
@@ -301,6 +302,7 @@ a {
 }
 .left {
   width: 50%;
+  font-weight: 700;
 }
 .footer {
   display: flex;
@@ -323,10 +325,15 @@ a {
 }
 .resume {
   
-  padding: 20px;
+  background-color: aliceblue;
   line-height: 1.8;
   margin-top: 5px;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
 
 }
 .portfolio {
@@ -335,6 +342,7 @@ a {
 .contact {
   background-color: gray;
   padding: 20px;
+  
   
 }
 .form-input {
@@ -348,4 +356,30 @@ a {
   padding-top: 20px;
   
   
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+@media screen and (max-width: 760px) {
+  textarea {
+    width: 230px;
+	  height: 110px;
+	  border: 3px solid #cccccc;
+	  padding: 5px;
+  }
+
+  .skills {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer {
+    
+  }
+
 }

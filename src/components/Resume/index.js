@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Resume component 
 function Resume () {
   return(
     <section className='resume'>
@@ -10,10 +11,10 @@ function Resume () {
       </div>
       <div>
         <a href={require("../../assets/document/Aswathy-Ajesh.pdf")}>
-          <h5>Download my Resume</h5>
+          <h6>Download my Resume</h6>
         </a>
       </div>
-      <div>
+      <div className='skills'>
         <h5>Front-end Technologies</h5>
           <ul>
             <li>HTML5</li>

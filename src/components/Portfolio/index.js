@@ -1,9 +1,10 @@
 import React from 'react';
 
+// Portfolio component provides project name,image,github repo and live website
 function Portfolio() {
   return (
     <section className="portfolio">
-      <div className='row row-cols-4'>
+      <div className='row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3' >
         <div className='col'>
           <div className='card'>
             <img 

@@ -1,8 +1,9 @@
 import React from 'react';
 
-
+// Nav component
 function Nav(props) {
   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
+  
   return (
     <ul className="nav nav-tabs">
       {tabs.map(tab => (
@@ -26,41 +27,4 @@ function Nav(props) {
 
 export default Nav;
   
-  /*return (
-    <nav className='navbar'>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a
-              href="#about"
-            >
-              About me
-            </a>
-          </li>
-          <li className="mx-2">
-            <a
-              href="#portfolio"
-            >
-              Portfolio
-            </a>
-          </li>
-          <li className="mx-2">
-            <a
-              href="#contact"
-            >
-              Contact
-            </a>
-          </li>
-          <li className="mx-2">
-            <a
-              href="#resume"
-            >
-              Resume
-            </a>
-          </li>
-          </ul>
-      </nav>
-    
-  ) 
-}
-export default Nav;
-*/
+  
