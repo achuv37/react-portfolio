@@ -1,11 +1,13 @@
 import React from 'react';
 
+// <div className='row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3' >
 // Portfolio component provides project name,image,github repo and live website
 function Portfolio() {
   return (
     <section className="portfolio">
-      <div className='row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3' >
-        <div className='col'>
+      <div className='row' >
+
+        <div className='col-12 col-md-6 col-lg-4'>
           <div className='card'>
             <img 
               src={require("../../assets/images/beers.PNG")}
@@ -23,7 +25,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-6 col-lg-4'>
           <div className='card'>
             <img 
               src={require("../../assets/images/home.PNG")}
@@ -41,7 +43,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-6 col-lg-4'>
           <div className='card'>
             <img 
               src={require("../../assets/images/Budget.PNG")}
@@ -59,7 +61,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-6 col-lg-4'>
           <div className='card'>
             <img 
               src={require("../../assets/images/Runbuddy.png")}
@@ -77,7 +79,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-6 col-lg-4'>
           <div className='card'>
             <img 
               src={require("../../assets/images/tech-blog.PNG")}
@@ -95,7 +97,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-6 col-lg-4'>
           <div className='card'>
             <img 
               src={require("../../assets/images/Note-taker.PNG")}

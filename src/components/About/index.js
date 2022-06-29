@@ -6,13 +6,13 @@ function About() {
   return (
     <section className='profile'>
       <div className='aboutme' id="about">
-        <h1>Hello! This is me</h1>
+        <h1> This is me !</h1>
       </div>
       <div>
         <img
           src={profileImage}
           alt="about-me"
-          className="image"
+          className="profile-image"
         />
       </div>
       <div className='left'>

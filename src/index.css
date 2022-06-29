@@ -303,6 +303,7 @@ a {
 .left {
   width: 50%;
   font-weight: 700;
+  padding: 20px;
 }
 .footer {
   display: flex;
@@ -365,9 +366,9 @@ a {
   
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 690px) {
   textarea {
-    width: 230px;
+    width: 220px;
 	  height: 110px;
 	  border: 3px solid #cccccc;
 	  padding: 5px;
@@ -379,7 +380,21 @@ a {
   }
   
   .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .profile-image {
+    height: 180px;
+    width: 180px;
     
+  }
+  .resume {
+    padding: 20px;
   }
 
 }
