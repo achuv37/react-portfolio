@@ -1,3 +1,4 @@
+// Importing react and components
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -12,4 +13,5 @@ function App () {
   )
 }
 
+// exporting app component
 export default App;

@@ -296,6 +296,8 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+/* About me section*/
 .aboutme {
   display: flex;
   justify-content: space-between;
@@ -305,6 +307,14 @@ a {
   font-weight: 700;
   padding: 20px;
 }
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  
+}
+/* Footer styling */
 .footer {
   display: flex;
   position: fixed;
@@ -324,6 +334,16 @@ a {
   margin-right: 40px;
 
 }
+.contact {
+  background-color: gray;
+  padding: 20px;
+}
+.form-input {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/*Resume section */
 .resume {
   
   background-color: aliceblue;
@@ -337,19 +357,13 @@ a {
   margin: 10px;
 
 }
+
+/*portfolio */
 .portfolio {
   margin: 10px auto;
 }
-.contact {
-  background-color: gray;
-  padding: 20px;
-  
-  
-}
-.form-input {
-  padding: 10px;
-  margin-top: 5px;
-}
+
+
 .header {
   background-color: black;
   display: flex;
@@ -358,14 +372,13 @@ a {
   
   
 }
-.profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  
+
+.form-input {
+  padding: 10px;
+  margin-top: 5px;
 }
 
+/* Media query */
 @media screen and (max-width: 690px) {
   textarea {
     width: 220px;

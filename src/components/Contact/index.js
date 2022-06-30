@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-
-
-
+// contact component
 function Contact () {
   const [errorMessage, setErrorMessage] = useState('');
   const [formState, setFormState] = useState({name: '', email: '', message: ''});
@@ -32,6 +30,7 @@ function Contact () {
 
   };
   
+  // handleNull function
   function handleNull(e) {
     if (e.target.name === 'name' || e.target.name === 'message' || e.target.name === 'email') {
       if (!e.target.value.length) {

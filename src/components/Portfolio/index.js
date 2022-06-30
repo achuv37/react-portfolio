@@ -1,6 +1,5 @@
 import React from 'react';
 
-// <div className='row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3' >
 // Portfolio component provides project name,image,github repo and live website
 function Portfolio() {
   return (

@@ -1,4 +1,5 @@
 import React from 'react'
+// importing image
 import profileImage from "../../assets/images/profile.jpg";
 
 // About component

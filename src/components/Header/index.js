@@ -1,4 +1,4 @@
-
+// Importing
 import React, { useMemo, useState } from 'react';
 import Nav from '../Nav'
 import About from '../About';
@@ -54,6 +54,7 @@ function Header() {
   );
 }
 
+// exporting 
 export default Header;
 
 
