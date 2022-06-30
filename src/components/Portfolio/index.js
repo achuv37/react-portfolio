@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Portfolio component provides project name,image,github repo and live website
+// Portfolio component provides project name,image,github repo and live website url
 function Portfolio() {
   return (
     <section className="portfolio">
