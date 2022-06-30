@@ -34,7 +34,7 @@ function Header() {
       <nav className='navbar'>
         <div className='navbar-brand'>
           <h1>
-            <a className='navbar-item' href="/react-portfolio"> Aswathy </a>
+            <a className='navbar-item' href="/react-portfolio-Av"> Aswathy </a>
           </h1>
         </div>
 
