@@ -32,7 +32,7 @@ function Contact () {
   
   // handleNull function
   function handleNull(e) {
-    if (e.target.name === 'name' || e.target.name === 'message' || e.target.name === 'email') {
+    if (e.target.name === 'name' || e.target.name === 'message' ) {
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {
@@ -50,7 +50,6 @@ function Contact () {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
-      
       console.log('Form', formState);
       setFormState({name: '', email: '', message: ''});
     }
@@ -62,15 +61,15 @@ function Contact () {
     <form id="contact-form" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
-        <input className='form-input' type="text" value={name}  onChange={handleChange} onBlur={handleNull} name="name" />
+        <input className='form-input' type="text" defaultValue={name}   onBlur={handleNull} name="name" />
       </div>
       <div>
         <label htmlFor="email">Email address:</label>
-        <input className='form-input' type="email" value={email} onChange={handleChange} onBlur={handleNull} name="email" />
+        <input className='form-input' type="email" DefaultValue={email} onBlur={handleChange} name="email" />
       </div>
       <div>
         <label htmlFor="message">Message:</label>
-        <textarea name="message" value={message} onChange={handleChange} onBlur={handleNull} rows="5" />
+        <textarea name="message" defaultValue={message}  onBlur={handleNull} rows="5" />
       </div>
       {errorMessage && (
         <div>
