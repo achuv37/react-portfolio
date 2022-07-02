@@ -10,7 +10,7 @@ The React-Portfolio challenge is to create a portfolio, using new React skills.
 * The footer presented with text or icon links to the developer’s GitHub, LinkedIn profile and Twitter profiles.
 
 ## Website
-https://achuv37.github.io/react-portfolio/
+https://achuv37.github.io/react-portfolio-av/
 ## Builtwith
 * HTML
 * CSS
