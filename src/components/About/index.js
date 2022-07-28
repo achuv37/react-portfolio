@@ -1,13 +1,13 @@
 import React from 'react'
 // importing image
-import profileImage from "../../assets/images/profile.jpg";
+import profileImage from "../../assets/images/profileimage.JPG";
 
 // About component
 function About() {
   return (
     <section className='profile'>
       <div className='aboutme' id="about">
-        <h1> This is me !</h1>
+        <h1>Hello, this is me !</h1>
       </div>
       <div>
         <img
@@ -18,7 +18,7 @@ function About() {
       </div>
       <div className='left'>
         <p>
-        My passion was always towards software development and my current goal is to  acquire a professional certificate in Full Stack Web Development. A full stack developer works on both the user-facing and back-end elements of websites and applications. 
+        Recently graduated as a Fullstack Web Developer from University of North Carolina, and gained hands on experience developing interactive applications using HTML, JavaScript, CSS,Node.js,Express.js,SQL/NOSQL(MongoDB), React.js, and responsive web design. I am an innovative problem solver and a passionate web application designer who works hard to make better user experience.
         </p>
       </div>
     </section>

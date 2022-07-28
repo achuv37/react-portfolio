@@ -15,7 +15,7 @@ function Footer() {
       </div>
       
       <div>
-        <a href='https://www.linkedin.com/' target='_blank'>
+        <a href='http://linkedin.com/in/aswathy-venugopalapillai-46339414a' target='_blank'>
           <img 
             src={require("../../assets/logos/linkedin.png")}
             alt="linkedin"
