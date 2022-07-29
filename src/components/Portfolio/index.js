@@ -4,6 +4,7 @@ import React from 'react';
 function Portfolio() {
   return (
     <section className="portfolio">
+    <h4> View some of my projects here !</h4>
       <div className='row' >
       <div className='col-12 col-md-6 col-lg-4'>
           <div className='card'>

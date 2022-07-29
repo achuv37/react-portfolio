@@ -23,15 +23,7 @@ function Footer() {
           ></img>
         </a>
       </div>
-      <div>
-        <a href='https://www.twitter.com/' target='_blank'>
-          <img 
-            src={require("../../assets/logos/twitter.png")}
-            alt="twitter"
-            className="logos"
-          ></img>
-        </a>
-      </div>
+      
     </footer>
   );
   
