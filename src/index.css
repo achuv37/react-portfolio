@@ -89,15 +89,16 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline; 
 }
 
-header {
-  background: var(--dark);
+.header {
+  background-color: gray;
 }
 
-header a {
+.header a {
   color: var(--light);
+  text-decoration: none;
 }
 
 button {
@@ -290,6 +291,7 @@ a {
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
+  
 	
 }
 
@@ -317,8 +319,13 @@ a {
   
 }
 .profile-image {
-  border-radius: 50%;
+  border-radius: 10%;
   
+}
+.name {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
 }
 /* Footer styling */
 .footer {
@@ -375,7 +382,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  
   
 }
 
