@@ -17,6 +17,10 @@ https://achuv37.github.io/react-portfolio-av/
 * JavaScript
 * Node.js
 * React.js
+
+## Install
+To install this project into your own, use ` git clone <reponame> ` in your command-line, then ` npm init` to install the listed dependencies.
+
 ## Images
 
 ![portfolio1](https://user-images.githubusercontent.com/93412486/176756888-127d29d6-01ff-4313-80e0-6229ebdc6ac9.PNG)
